@@ -1,0 +1,34 @@
+﻿<Application x:Class="WebAPIClient.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <Style x:Key="StyleRedList">
+            <Setter Property="Control.Background" Value="#c60c30"/>
+        </Style>
+        <Style x:Key="StyleBlueList">
+            <Setter Property="Control.Background" Value="#00a1de"/>
+        </Style>
+        <Style x:Key="StyleBrownList">
+            <Setter Property="Control.Background" Value="#62361b"/>
+        </Style>
+        <Style x:Key="StyleGreenList">
+            <Setter Property="Control.Background" Value="#009b3a"/>
+        </Style>
+        <Style x:Key="StyleOrangeList">
+            <Setter Property="Control.Background" Value="#f9461c"/>
+        </Style>
+        <Style x:Key="StylePurpleList">
+            <Setter Property="Control.Background" Value="#522398"/>
+        </Style>
+        <Style x:Key="StylePinkList">
+            <Setter Property="Control.Background" Value="#e27ea6"/>
+        </Style>
+        <Style x:Key="StyleYellowList">
+            <Setter Property="Control.Background" Value="#f9e300"/>
+        </Style>
+        <Style x:Key="StyleWhiteList">
+            <Setter Property="Control.Background" Value="#ffffff"/>
+        </Style>
+    </Application.Resources>
+</Application>
